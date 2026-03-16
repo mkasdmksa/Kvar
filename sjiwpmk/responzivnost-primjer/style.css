@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.okvir{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.glavna-kartica{
+    display: flex;
+    gap: 20px;
+    ;
+}
+
+.kartica{
+    flex: 1;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+@media (max-width: 760px) {
+.glavna-kartica{
+     flex-direction: column;
+}
+body{
+    background-color: lightblue;
+}
+    
+}
